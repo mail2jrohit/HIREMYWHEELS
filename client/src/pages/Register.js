@@ -21,7 +21,7 @@ function Register() {
       {loading && (<Spinner />)}
       <Row gutter={16} className="d-flex align-items-center">
         <Col lg={16} style={{ position: "relative" }}>
-          <img 
+          <img className='imageLogin'
           
            data-aos='slide-left'
            data-aos-duration='1500'
