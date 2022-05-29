@@ -173,6 +173,16 @@ button{
   
 }
 
+
+
+  
+  @media screen and (max-width: 480px) {
+    .imageLogin {
+         width: 400px;
+    }
+}
+
+
 svg{
   height:20px !important;
   width : 20px !important;

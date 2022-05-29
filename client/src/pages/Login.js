@@ -23,7 +23,8 @@ function Login() {
       {loading && (<Spinner />)}
       <Row gutter={16} className='d-flex align-items-center'>
         <Col lg = {16} style={{position: 'relative'}}>
-          <img 
+          <img className='imageLogin'
+          
           data-aos='slide-right'
           data-aos-duration = '1500'
           src='https://img.freepik.com/free-vector/city-driver-concept-illustration_114360-1666.jpg?t=st=1652595286~exp=1652595886~hmac=39859580115b19df20c88cf7b89678c2b07a38b0b3ce07fe1b7d004fe0984d6d&w=680' />
