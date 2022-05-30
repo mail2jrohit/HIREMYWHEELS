@@ -45,14 +45,14 @@ function Register() {
               label="Password"
               rules={[{ required: true }]}
             >
-              <Input />
+              <Input.Password style={{background: "#618619", opacity: "0.80"}}/>
             </Form.Item>
             <Form.Item
               name="cpassword"
               label="Confirm Password"
               rules={[{ required: true }]}
             >
-              <Input />
+              <Input.Password style={{background: "#618619", opacity: "0.80"}}/>
             </Form.Item>
 
             <button className="btn1 mt-2 mb-3">Register</button>

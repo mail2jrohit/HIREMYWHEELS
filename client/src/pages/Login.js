@@ -5,6 +5,7 @@ import {useDispatch, useSelector} from 'react-redux'
 import {userLogin} from '../redux/actions/userActions'
 import AOS from 'aos';
 import Spinner from '../components/Spinner';
+import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
@@ -39,7 +40,7 @@ function Login() {
               <Input />
             </Form.Item>
             <Form.Item name='password' label='Password' rules={[{required: true}]}>
-              <Input />
+              <Input.Password style={{background: "#618619", opacity: "0.80"}}/>
             </Form.Item>
 
             <button className='btn1 mt-2'>Login</button>
